@@ -3,7 +3,7 @@ from ocr import choose_language, image_button_callback, text_option_callback_cho
 from commands import *
 from speech_to_text import voice_message_handle, audio_message_handle, audio_option_callback_choice
 from const import API_KEY_TEL
-from parser_1 import schedule_nmu, course_choice_nmu, group_choice_nmu, CHOOSING_NMU, RECEIVING_NMU, \
+from parser import schedule_nmu, course_choice_nmu, group_choice_nmu, CHOOSING_NMU, RECEIVING_NMU, \
     RECEIVING_COURSE_NMU, receiving_course, schedule_nuft, RECEIVING_NUFT, scraper_nuft
 from telegram.ext import ApplicationBuilder, CommandHandler, ConversationHandler, CallbackQueryHandler, \
     MessageHandler, filters
