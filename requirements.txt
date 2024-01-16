@@ -1,0 +1,6 @@
+python-telegram-bot
+pytesseract
+openai
+selenium
+pydub
+pandas

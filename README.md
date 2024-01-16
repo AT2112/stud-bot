@@ -1,0 +1,1 @@
+To run OCR module of the bot you need to download Tesseract OCR and chromedriver.exe
