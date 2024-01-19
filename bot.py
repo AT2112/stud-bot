@@ -41,8 +41,6 @@ def bot():
 
     application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, reply))
 
-    # application.add_handler(MessageHandler(filters.Sticker.ALL & ~filters.COMMAND, get_porn))
-
     application.add_handler(MessageHandler(filters.PHOTO & ~filters.COMMAND, choose_language))
 
     application.add_handler(MessageHandler(filters.VOICE & ~filters.COMMAND, voice_message_handle))
